@@ -13,3 +13,7 @@
 1. vim ~/.config/pudb/pudb.cfg
 2. change theme from classic into dark vim
 
+## remotely access
+1. VPN is the first option, as it is fast;
+2. [frp](https://github.com/fatedier/frp), if you have acess to third-part server with the fixed outgoing ip;
+3. [ngrok](https://ngrok.com/) and its [installation](https://github.com/vincenthsu/systemd-ngrok) could be another methods;
