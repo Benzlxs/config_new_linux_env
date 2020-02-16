@@ -17,3 +17,6 @@
 1. VPN is the first option, as it is fast;
 2. [frp](https://github.com/fatedier/frp) and its [[add-to-systemd]](https://github.com/fatedier/frp/blob/master/conf/systemd/frpc.service) or [althernative](https://gist.github.com/ihipop/4dc607caef7c874209521b10d18e35af#file-frp-systemd-md), if you have acess to third-part server with the fixed outgoing ip;
 3. [ngrok](https://ngrok.com/) and its [add-to-systemd](https://github.com/vincenthsu/systemd-ngrok) could be another methods;
+
+## terminal
+1. install the [terminator](https://gnometerminator.blogspot.com/p/introduction.html)
