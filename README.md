@@ -20,4 +20,4 @@
 
 ## terminal in clint computer
 1. install the [terminator](https://gnometerminator.blogspot.com/p/introduction.html)
-2. add `printf "\e[?2004l"` to .bashrc, to fix the issue: Copy-Paste adds 0~ and 1~
+2. add `printf "\e[?2004l"` to .bashrc, (alternative, add `set t_BE=` to the .vimrc) to fix the issue: Copy-Paste adds 0~ and 1~
