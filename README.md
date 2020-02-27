@@ -7,11 +7,13 @@
 4. add the conda activate into .bashrc to activate  environment every time when you login
 
 ## install vim plugins
-[vim_config](https://github.com/amix/vimrc)
+1. [vim_config](https://github.com/amix/vimrc)
+2. .vim_runtime/vimrcs/basic.vim, 
 
 ## config the pudb
 1. vim ~/.config/pudb/pudb.cfg
-2. change theme from classic into dark vim
+2. change theme from classic into dark vim, `set hlsearch`, `set number`, `set foldmethod=indent`, `set autoindent` , `set smartindent`, `set smarttab`, and `set expandtab`;
+
 
 ## remotely access
 1. VPN is the first option, as it is fast;
