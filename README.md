@@ -12,7 +12,8 @@
 
 ## config the pudb
 1. vim ~/.config/pudb/pudb.cfg
-2. change theme from classic into dark vim, 
+2. change theme from classic into dark vim,
+3. set vim:
 `set hlsearch
 set number
 set foldmethod=indent
