@@ -12,7 +12,14 @@
 
 ## config the pudb
 1. vim ~/.config/pudb/pudb.cfg
-2. change theme from classic into dark vim, `set hlsearch`, `set number`, `set foldmethod=indent`, `set autoindent` , `set smartindent`, `set smarttab`, and `set expandtab`;
+2. change theme from classic into dark vim, 
+`set hlsearch
+set number
+set foldmethod=indent
+set autoindent
+set smartindent
+set smarttab
+set expandtab`;
 
 
 ## remotely access
