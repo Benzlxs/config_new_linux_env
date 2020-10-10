@@ -16,7 +16,8 @@ set foldmethod=indent
 set autoindent
 set smartindent
 set smarttab
-set expandtab`;
+set expandtab
+set colorcolumn=0`;
 4. rerun the installation: `sh ~/.vim_runtime/install_basic_vimrc.sh`
 
 ## config the pudb
