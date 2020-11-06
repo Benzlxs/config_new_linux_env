@@ -10,14 +10,19 @@
 1. [vim_config](https://github.com/amix/vimrc)
 2. .vim_runtime/vimrcs/basic.vim, 
 3. set vim:
-`set hlsearch
+```bash
+set hlsearch
 set number
 set foldmethod=indent
 set autoindent
 set smartindent
 set smarttab
 set expandtab
-set colorcolumn=0`;
+set colorcolumn=0
+
+cmap W w
+cmap Q q
+```
 4. rerun the installation: `sh ~/.vim_runtime/install_basic_vimrc.sh`
 
 ## config the pudb
