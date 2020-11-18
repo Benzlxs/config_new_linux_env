@@ -13,7 +13,6 @@ RUN pip3 install --upgrade pip
 # Creat and goto a working directory in the image
 WORKDIR /app
 
-
 # Copy the files of current directory in the host into /app inside the image
 COPY . /app
 
@@ -23,11 +22,9 @@ RUN pip3 --no-cache-dir install -r requirements.txt
 # Open one listen port
 EXPOSE 8080
 
-# start the application in the image when launaching it.
+# Start the application in the image when launaching it.
 ENTRYPOINT gunicorn -b :8080 app:app
 
 # or ENTRYPOINT ["python3", "app.py"] or python3 app.py
 # ENTRYPOINT ["python3"]
 # CMD ["app.py"]
-
-
