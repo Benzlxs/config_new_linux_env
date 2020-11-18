@@ -5,6 +5,12 @@
 2. conda create --name xxxx
 3. conda activate xxxx
 4. add the conda activate into .bashrc to activate  environment every time when you login
+or 
+1. Install pip (python3.6+) and [virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) to manage packages;
+2. python3 -m venv env
+3. source env/bin/activate
+
+## install [Docker](https://docs.docker.com/get-docker/)
 
 ## install vim plugins
 1. [vim_config](https://github.com/amix/vimrc)
