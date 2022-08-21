@@ -43,3 +43,23 @@ cmap Q q
 ## terminal in clint computer
 1. install the [terminator](https://gnometerminator.blogspot.com/p/introduction.html)
 2. add `printf "\e[?2004l"` to .bashrc, (alternative, add `set t_BE=` to the .vimrc) to fix the issue: Copy-Paste adds 0~ and 1~
+
+
+## on-my-zsh 
+1. install autojump, zsh theme=powerlevel10k
+2. plugins=(
+   git
+   bundler
+   dotenv
+   macos
+   rake
+   rbenv
+   ruby
+   jump
+   zsh-syntax-highlighting
+   zsh-autosuggestions
+   git
+   z
+   extract
+ )
+
