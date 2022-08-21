@@ -55,7 +55,7 @@ cmap Q q
    rake
    rbenv
    ruby
-   jump
+   autojump
    zsh-syntax-highlighting
    zsh-autosuggestions
    git
