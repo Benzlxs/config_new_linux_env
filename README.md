@@ -50,7 +50,7 @@ cmap Q q
 
 ## oh-my-zsh 
 0. install [oh-my-zsh](https://ohmyz.sh/#install).
-1. install autojump, zsh [powerlevel10k/powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+1. install autojump, zsh [powerlevel10k/powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh). `p10k configure` to reconfigure the theme
 2. [highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
 3. [autosuggestion](https://github.com/zsh-users/zsh-autosuggestions)
 4. plugins=(
