@@ -68,6 +68,7 @@ cmap Q q
    z
    extract
  )
+ 5. start the `zsh` from `.bashrc`
 ```
 # .bash_profile is executed for login shells,
 # .bashrc is executed for interactive non-login shells.
