@@ -48,9 +48,12 @@ cmap Q q
 1. iterm2 is better than terminator
 2. set up "hotkey" to full screen one profile.
 
-## on-my-zsh 
-1. install autojump, zsh theme=powerlevel10k
-2. plugins=(
+## oh-my-zsh 
+0. install [oh-my-zsh](https://ohmyz.sh/#install).
+1. install autojump, zsh [powerlevel10k/powerlevel10k](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+2. [highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md)
+3. [autosuggestion](https://github.com/zsh-users/zsh-autosuggestions)
+4. plugins=(
    git
    bundler
    dotenv
@@ -65,4 +68,5 @@ cmap Q q
    z
    extract
  )
+ 
 
