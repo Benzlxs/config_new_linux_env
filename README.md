@@ -85,3 +85,14 @@ then
     fi
 fi
 ```
+
+## customize the shell commands
+1. vim ~/.my_custom_commands.sh
+2. put following command as example:
+```
+function cdls()
+{  
+   cd "${1}" && ll
+}
+```
+3. add `source ~/.my_custom_commands.sh` to .zshrc or .bashrc, then, the `cdls` is ready to be called. 
