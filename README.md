@@ -13,7 +13,11 @@ or
 ## install [Docker](https://docs.docker.com/get-docker/)
 
 ## install vim plugins
-1. [vim_config](https://github.com/amix/vimrc)
+Option1:
+using [spf13-vim](https://github.com/spf13/spf13-vim)
+
+Option2:
+1. [vim_config](https://github.com/amix/vimrc). 
 2. .vim_runtime/vimrcs/basic.vim, 
 3. set vim:
 ```bash
