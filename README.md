@@ -14,7 +14,22 @@ or
 
 ## install vim plugins
 Option1:
-using [spf13-vim](https://github.com/spf13/spf13-vim)
+1. using [spf13-vim](https://github.com/spf13/spf13-vim)
+2. addding following commands to .vimrc.local
+```bash
+set hlsearch
+set number
+set foldmethod=indent
+set autoindent
+set smartindent
+set smarttab
+set expandtab
+set colorcolumn=0
+
+cmap W w
+cmap Q q
+cmap A a
+```
 
 Option2:
 1. [vim_config](https://github.com/amix/vimrc). 
