@@ -51,6 +51,14 @@ cmap A a
 ```
 4. rerun the installation: `sh ~/.vim_runtime/install_basic_vimrc.sh`
 
+### empty vim cache
+```
+rm -rf ~/.viminfo
+rm -rf ~/.vimviews/*
+rm -rf ~/.vim/view/*
+rm -rf ~/.vimswap/*
+```
+
 ## config the pudb
 1. vim ~/.config/pudb/pudb.cfg
 2. change theme from classic into dark vim,
