@@ -48,7 +48,11 @@ set colorcolumn=0
 cmap W w
 cmap Q q
 cmap A a
+
+nnoremap J gT
+nnoremap L gt
 ```
+
 4. rerun the installation: `sh ~/.vim_runtime/install_basic_vimrc.sh`
 
 ### empty vim cache
